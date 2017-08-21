@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840784DC1F4AF58B00297E30 /* Singelton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840784DB1F4AF58B00297E30 /* Singelton.swift */; };
+		844BD21C1F4ABE3100A18D96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BD21B1F4ABE3100A18D96 /* Model.swift */; };
+		844BD21E1F4AC15300A18D96 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 844BD21D1F4AC15300A18D96 /* Podfile */; };
+		844BD2201F4AEB4F00A18D96 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BD21F1F4AEB4F00A18D96 /* DetailViewController.swift */; };
+		84CA77AE1F471F3B00D6977F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA77AD1F471F3B00D6977F /* AppDelegate.swift */; };
+		84CA77B01F471F3B00D6977F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA77AF1F471F3B00D6977F /* ViewController.swift */; };
+		84CA77B31F471F3B00D6977F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CA77B11F471F3B00D6977F /* Main.storyboard */; };
+		84CA77B61F471F3B00D6977F /* FBGraphApiIos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CA77B41F471F3B00D6977F /* FBGraphApiIos.xcdatamodeld */; };
+		84CA77B81F471F3B00D6977F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CA77B71F471F3B00D6977F /* Assets.xcassets */; };
+		84CA77BB1F471F3B00D6977F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CA77B91F471F3B00D6977F /* LaunchScreen.storyboard */; };
+		84CA77C61F471F3B00D6977F /* FBGraphApiIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA77C51F471F3B00D6977F /* FBGraphApiIosTests.swift */; };
+		84CA77D11F471F3B00D6977F /* FBGraphApiIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA77D01F471F3B00D6977F /* FBGraphApiIosUITests.swift */; };
+		84CA77E01F47204F00D6977F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA77DF1F47204F00D6977F /* FBSDKLoginKit.framework */; };
+		84CA77E21F47205800D6977F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA77E11F47205800D6977F /* FBSDKCoreKit.framework */; };
+		E66FF211F914FEED270315C7 /* Pods_FBGraphApiIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58449C2BBE16E1D8F0ADB1BD /* Pods_FBGraphApiIos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CA77C21F471F3B00D6977F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CA77A21F471F3B00D6977F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CA77A91F471F3B00D6977F;
+			remoteInfo = FBGraphApiIos;
+		};
+		84CA77CD1F471F3B00D6977F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CA77A21F471F3B00D6977F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CA77A91F471F3B00D6977F;
+			remoteInfo = FBGraphApiIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F17D12ECC8CC904CA0636D /* Pods-FBGraphApiIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBGraphApiIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBGraphApiIos/Pods-FBGraphApiIos.release.xcconfig"; sourceTree = "<group>"; };
+		58449C2BBE16E1D8F0ADB1BD /* Pods_FBGraphApiIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBGraphApiIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840784DB1F4AF58B00297E30 /* Singelton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singelton.swift; sourceTree = "<group>"; };
+		844BD21B1F4ABE3100A18D96 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		844BD21D1F4AC15300A18D96 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		844BD21F1F4AEB4F00A18D96 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84CA77AA1F471F3B00D6977F /* FBGraphApiIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBGraphApiIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CA77AD1F471F3B00D6977F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84CA77AF1F471F3B00D6977F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84CA77B21F471F3B00D6977F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CA77B51F471F3B00D6977F /* FBGraphApiIos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBGraphApiIos.xcdatamodel; sourceTree = "<group>"; };
+		84CA77B71F471F3B00D6977F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CA77BA1F471F3B00D6977F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CA77BC1F471F3B00D6977F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CA77C11F471F3B00D6977F /* FBGraphApiIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBGraphApiIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CA77C51F471F3B00D6977F /* FBGraphApiIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBGraphApiIosTests.swift; sourceTree = "<group>"; };
+		84CA77C71F471F3B00D6977F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CA77CC1F471F3B00D6977F /* FBGraphApiIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBGraphApiIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CA77D01F471F3B00D6977F /* FBGraphApiIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBGraphApiIosUITests.swift; sourceTree = "<group>"; };
+		84CA77D21F471F3B00D6977F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CA77DF1F47204F00D6977F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		84CA77E11F47205800D6977F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		892FECF66372870C23FD08D3 /* Pods-FBGraphApiIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBGraphApiIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBGraphApiIos/Pods-FBGraphApiIos.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CA77A71F471F3B00D6977F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA77E01F47204F00D6977F /* FBSDKLoginKit.framework in Frameworks */,
+				84CA77E21F47205800D6977F /* FBSDKCoreKit.framework in Frameworks */,
+				E66FF211F914FEED270315C7 /* Pods_FBGraphApiIos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA77BE1F471F3B00D6977F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA77C91F471F3B00D6977F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A3957C7F928BB65E3836CED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				892FECF66372870C23FD08D3 /* Pods-FBGraphApiIos.debug.xcconfig */,
+				12F17D12ECC8CC904CA0636D /* Pods-FBGraphApiIos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84CA77A11F471F3B00D6977F = {
+			isa = PBXGroup;
+			children = (
+				844BD21D1F4AC15300A18D96 /* Podfile */,
+				84CA77DE1F47200500D6977F /* Frameworks */,
+				84CA77AC1F471F3B00D6977F /* FBGraphApiIos */,
+				84CA77C41F471F3B00D6977F /* FBGraphApiIosTests */,
+				84CA77CF1F471F3B00D6977F /* FBGraphApiIosUITests */,
+				84CA77AB1F471F3B00D6977F /* Products */,
+				5A3957C7F928BB65E3836CED /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		84CA77AB1F471F3B00D6977F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CA77AA1F471F3B00D6977F /* FBGraphApiIos.app */,
+				84CA77C11F471F3B00D6977F /* FBGraphApiIosTests.xctest */,
+				84CA77CC1F471F3B00D6977F /* FBGraphApiIosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CA77AC1F471F3B00D6977F /* FBGraphApiIos */ = {
+			isa = PBXGroup;
+			children = (
+				84CA77AD1F471F3B00D6977F /* AppDelegate.swift */,
+				84CA77AF1F471F3B00D6977F /* ViewController.swift */,
+				84CA77B11F471F3B00D6977F /* Main.storyboard */,
+				84CA77B71F471F3B00D6977F /* Assets.xcassets */,
+				84CA77B91F471F3B00D6977F /* LaunchScreen.storyboard */,
+				84CA77BC1F471F3B00D6977F /* Info.plist */,
+				84CA77B41F471F3B00D6977F /* FBGraphApiIos.xcdatamodeld */,
+				844BD21B1F4ABE3100A18D96 /* Model.swift */,
+				844BD21F1F4AEB4F00A18D96 /* DetailViewController.swift */,
+				840784DB1F4AF58B00297E30 /* Singelton.swift */,
+			);
+			path = FBGraphApiIos;
+			sourceTree = "<group>";
+		};
+		84CA77C41F471F3B00D6977F /* FBGraphApiIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CA77C51F471F3B00D6977F /* FBGraphApiIosTests.swift */,
+				84CA77C71F471F3B00D6977F /* Info.plist */,
+			);
+			path = FBGraphApiIosTests;
+			sourceTree = "<group>";
+		};
+		84CA77CF1F471F3B00D6977F /* FBGraphApiIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CA77D01F471F3B00D6977F /* FBGraphApiIosUITests.swift */,
+				84CA77D21F471F3B00D6977F /* Info.plist */,
+			);
+			path = FBGraphApiIosUITests;
+			sourceTree = "<group>";
+		};
+		84CA77DE1F47200500D6977F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84CA77E11F47205800D6977F /* FBSDKCoreKit.framework */,
+				84CA77DF1F47204F00D6977F /* FBSDKLoginKit.framework */,
+				58449C2BBE16E1D8F0ADB1BD /* Pods_FBGraphApiIos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CA77A91F471F3B00D6977F /* FBGraphApiIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CA77D51F471F3B00D6977F /* Build configuration list for PBXNativeTarget "FBGraphApiIos" */;
+			buildPhases = (
+				0158AAA1F395727FD784C1D2 /* [CP] Check Pods Manifest.lock */,
+				84CA77A61F471F3B00D6977F /* Sources */,
+				84CA77A71F471F3B00D6977F /* Frameworks */,
+				84CA77A81F471F3B00D6977F /* Resources */,
+				78AD942250F4CD38D93E19FB /* [CP] Embed Pods Frameworks */,
+				27FF4F044433910F37F4DFB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBGraphApiIos;
+			productName = FBGraphApiIos;
+			productReference = 84CA77AA1F471F3B00D6977F /* FBGraphApiIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CA77C01F471F3B00D6977F /* FBGraphApiIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CA77D81F471F3B00D6977F /* Build configuration list for PBXNativeTarget "FBGraphApiIosTests" */;
+			buildPhases = (
+				84CA77BD1F471F3B00D6977F /* Sources */,
+				84CA77BE1F471F3B00D6977F /* Frameworks */,
+				84CA77BF1F471F3B00D6977F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CA77C31F471F3B00D6977F /* PBXTargetDependency */,
+			);
+			name = FBGraphApiIosTests;
+			productName = FBGraphApiIosTests;
+			productReference = 84CA77C11F471F3B00D6977F /* FBGraphApiIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CA77CB1F471F3B00D6977F /* FBGraphApiIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CA77DB1F471F3B00D6977F /* Build configuration list for PBXNativeTarget "FBGraphApiIosUITests" */;
+			buildPhases = (
+				84CA77C81F471F3B00D6977F /* Sources */,
+				84CA77C91F471F3B00D6977F /* Frameworks */,
+				84CA77CA1F471F3B00D6977F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CA77CE1F471F3B00D6977F /* PBXTargetDependency */,
+			);
+			name = FBGraphApiIosUITests;
+			productName = FBGraphApiIosUITests;
+			productReference = 84CA77CC1F471F3B00D6977F /* FBGraphApiIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CA77A21F471F3B00D6977F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mujadidia Inc";
+				TargetAttributes = {
+					84CA77A91F471F3B00D6977F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M9HQSA4YLJ;
+						ProvisioningStyle = Automatic;
+					};
+					84CA77C01F471F3B00D6977F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M9HQSA4YLJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CA77A91F471F3B00D6977F;
+					};
+					84CA77CB1F471F3B00D6977F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M9HQSA4YLJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CA77A91F471F3B00D6977F;
+					};
+				};
+			};
+			buildConfigurationList = 84CA77A51F471F3B00D6977F /* Build configuration list for PBXProject "FBGraphApiIos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CA77A11F471F3B00D6977F;
+			productRefGroup = 84CA77AB1F471F3B00D6977F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CA77A91F471F3B00D6977F /* FBGraphApiIos */,
+				84CA77C01F471F3B00D6977F /* FBGraphApiIosTests */,
+				84CA77CB1F471F3B00D6977F /* FBGraphApiIosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CA77A81F471F3B00D6977F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA77BB1F471F3B00D6977F /* LaunchScreen.storyboard in Resources */,
+				84CA77B81F471F3B00D6977F /* Assets.xcassets in Resources */,
+				844BD21E1F4AC15300A18D96 /* Podfile in Resources */,
+				84CA77B31F471F3B00D6977F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA77BF1F471F3B00D6977F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA77CA1F471F3B00D6977F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0158AAA1F395727FD784C1D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27FF4F044433910F37F4DFB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBGraphApiIos/Pods-FBGraphApiIos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78AD942250F4CD38D93E19FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBGraphApiIos/Pods-FBGraphApiIos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CA77A61F471F3B00D6977F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844BD21C1F4ABE3100A18D96 /* Model.swift in Sources */,
+				840784DC1F4AF58B00297E30 /* Singelton.swift in Sources */,
+				84CA77B01F471F3B00D6977F /* ViewController.swift in Sources */,
+				844BD2201F4AEB4F00A18D96 /* DetailViewController.swift in Sources */,
+				84CA77B61F471F3B00D6977F /* FBGraphApiIos.xcdatamodeld in Sources */,
+				84CA77AE1F471F3B00D6977F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA77BD1F471F3B00D6977F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA77C61F471F3B00D6977F /* FBGraphApiIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA77C81F471F3B00D6977F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA77D11F471F3B00D6977F /* FBGraphApiIosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CA77C31F471F3B00D6977F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CA77A91F471F3B00D6977F /* FBGraphApiIos */;
+			targetProxy = 84CA77C21F471F3B00D6977F /* PBXContainerItemProxy */;
+		};
+		84CA77CE1F471F3B00D6977F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CA77A91F471F3B00D6977F /* FBGraphApiIos */;
+			targetProxy = 84CA77CD1F471F3B00D6977F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CA77B11F471F3B00D6977F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CA77B21F471F3B00D6977F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CA77B91F471F3B00D6977F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CA77BA1F471F3B00D6977F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CA77D31F471F3B00D6977F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84CA77D41F471F3B00D6977F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CA77D61F471F3B00D6977F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892FECF66372870C23FD08D3 /* Pods-FBGraphApiIos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M9HQSA4YLJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = FBGraphApiIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mujadidia.FBGraphApiIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84CA77D71F471F3B00D6977F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F17D12ECC8CC904CA0636D /* Pods-FBGraphApiIos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M9HQSA4YLJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = FBGraphApiIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mujadidia.FBGraphApiIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84CA77D91F471F3B00D6977F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M9HQSA4YLJ;
+				INFOPLIST_FILE = FBGraphApiIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mujadidia.FBGraphApiIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBGraphApiIos.app/FBGraphApiIos";
+			};
+			name = Debug;
+		};
+		84CA77DA1F471F3B00D6977F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M9HQSA4YLJ;
+				INFOPLIST_FILE = FBGraphApiIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mujadidia.FBGraphApiIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBGraphApiIos.app/FBGraphApiIos";
+			};
+			name = Release;
+		};
+		84CA77DC1F471F3B00D6977F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M9HQSA4YLJ;
+				INFOPLIST_FILE = FBGraphApiIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mujadidia.FBGraphApiIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FBGraphApiIos;
+			};
+			name = Debug;
+		};
+		84CA77DD1F471F3B00D6977F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M9HQSA4YLJ;
+				INFOPLIST_FILE = FBGraphApiIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mujadidia.FBGraphApiIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FBGraphApiIos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CA77A51F471F3B00D6977F /* Build configuration list for PBXProject "FBGraphApiIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CA77D31F471F3B00D6977F /* Debug */,
+				84CA77D41F471F3B00D6977F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CA77D51F471F3B00D6977F /* Build configuration list for PBXNativeTarget "FBGraphApiIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CA77D61F471F3B00D6977F /* Debug */,
+				84CA77D71F471F3B00D6977F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CA77D81F471F3B00D6977F /* Build configuration list for PBXNativeTarget "FBGraphApiIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CA77D91F471F3B00D6977F /* Debug */,
+				84CA77DA1F471F3B00D6977F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CA77DB1F471F3B00D6977F /* Build configuration list for PBXNativeTarget "FBGraphApiIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CA77DC1F471F3B00D6977F /* Debug */,
+				84CA77DD1F471F3B00D6977F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84CA77B41F471F3B00D6977F /* FBGraphApiIos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84CA77B51F471F3B00D6977F /* FBGraphApiIos.xcdatamodel */,
+			);
+			currentVersion = 84CA77B51F471F3B00D6977F /* FBGraphApiIos.xcdatamodel */;
+			path = FBGraphApiIos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84CA77A21F471F3B00D6977F /* Project object */;
+}

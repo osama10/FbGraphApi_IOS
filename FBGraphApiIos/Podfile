@@ -1,0 +1,10 @@
+target 'FBGraphApiIos' do
+
+platform :ios, '10.0'
+
+use_frameworks!
+
+pod 'ObjectMapper', '~> 2.2'
+
+
+end
